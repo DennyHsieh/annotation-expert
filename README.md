@@ -34,13 +34,10 @@ The annotation files are the dataset containing tables of data relating to songs
 | 1st | **特別標記**(**Special labels)** | silence, end                                                                                               | 標記音檔起始空白為silence；訊號起始點為silence-end；音樂結束點為silence；整個音檔最後一秒為end                  |
 | 2nd | **結構(Structure)**            | intro, verse, chorus, inter, bridge, outro                                                                 | 標記出音樂架構中每個段落的**”起始處”**，另以程式生成相同結構標註相同大寫英文字母(A, B, C, …)，存為”StructurePlus”      |
 | 3rd | **樂句(Melody-based Phrase)**  | 相同樂句旋律需標註***相同小寫字母(a, b, c, ...)***                                                                        | 標記出每個”**樂句起始處”**                                                               |
-| 4th | **終止式(Cadence)**             | **A:** Authentic (V-I),
-**P:** Plagal (IV-I),
-**H:** Half (-V),
-**D:** Deceptive (V-x, x=ii、IV6、iv6、vi、VI) | 有用到此四個終止式即標記，標註在該終止式"**結束的時間點**"，例如V-I，就標 I 結束的時間點(因為那才是一個"分界")，label就標是哪一種終止式 |
+| 4th | **終止式(Cadence)**             | **A:** Authentic (V-I), **P:** Plagal (IV-I), **H:** Half (-V), **D:** Deceptive (V-x, x=ii、IV6、iv6、vi、VI) | 有用到此四個終止式即標記，標註在該終止式"**結束的時間點**"，例如V-I，就標 I 結束的時間點(因為那才是一個"分界")，label就標是哪一種終止式 |
 | 5th | **歌詞句(Lyric-based Phrase)**  | 無                                                                                                          | 標記出每句歌詞"**結束的時間點**”                                                            |
 
-![](image/annotation_toc.png)
+<img src="image/annotation_toc" width="50%" height="50%">
 
 
 - Step 7: 存檔方式
@@ -69,21 +66,19 @@ The annotation files are the dataset containing tables of data relating to songs
   - 連續結構：Structure, Melody-based Phrase，只標起始
     - Example 1：某首歌的 61秒至76秒為Bridge，76秒至106秒為Chorus，則標記如下：
 
-| Time     | Frame | Label  |
-| -------- | ----- | ------ |
-| 1:01.000 | xxx   | bridge |
-| 1:16.000 | xxx   | chorus |
-
+    | Time     | Frame | Label  |
+    | -------- | ----- | ------ |
+    | 1:01.000 | xxx   | bridge |
+    | 1:16.000 | xxx   | chorus |
 
 
   - 不連續結構：Cadence, Lyric-based Phrase，只標結尾
     - Example 2：某首歌的61秒至76秒為歌詞句A，81秒至111秒為歌詞句B，則標記如下：
 
-| Time     | Frame | Label |
-| -------- | ----- | ----- |
-| 1:16.000 | xxx   | A     |
-| 1:51.000 | xxx   | B     |
-
+    | Time     | Frame | Label |
+    | -------- | ----- | ----- |
+    | 1:16.000 | xxx   | A     |
+    | 1:51.000 | xxx   | B     |
 
 
 - 結構(Structure)標記說明

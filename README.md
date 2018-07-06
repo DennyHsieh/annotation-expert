@@ -10,14 +10,14 @@ The annotation files are the dataset containing tables of data relating to songs
 **Procedures**
 
 - Step 1: 選擇上方選單File > Open > 選取歌曲，或是拖曳檔案，將歌曲加載到Sonic Visualiser，此時會顯示歌曲波形。
-![](https://github.com/DennyHsieh/annotation-expert/tree/master/image/annotation_1.png)
+![](https://github.com/DennyHsieh/annotation-expert/blob/master/image/annotation_1.png)
 
 - Step 2:  選擇上方選單 Pane > Add New Pane 或快捷鍵 N 產生一個新的標記面板。此時若按分號鍵 (***;***) 會在黑色豎槓處產生一個標記 (Time Instants Layer) 。
-![](https://github.com/DennyHsieh/annotation-expert/tree/master/image/annotation_2.png)
+![](https://github.com/DennyHsieh/annotation-expert/blob/master/image/annotation_2.png)
 
 - Step 3: 按下播放(或空白鍵)並聆聽音樂，並在欲標記處按下分號鍵 (*;*) 以作標記。如果錯過的話，可按暫停播放(或再一下空白鍵)並拖移音軌至欲標記處，重新做標記。按ctrl+z (mac: command + z) 可以退回上一步。
 - Step 4: 整首歌標記完後，選擇上方選單 Layer > Edit Layer Data 或按快捷鍵E打開圖層數據編輯視窗 (Data Editor)，將打開一個新視窗。第一欄為時間 (已自動轉換為秒)，在第三欄輸入標記的文字敘述 (例如 intro, verse, chorus, bridge等等。)
-![](https://github.com/DennyHsieh/annotation-expert/tree/master/image/annotation_3.png)
+![](https://github.com/DennyHsieh/annotation-expert/blob/master/image/annotation_3.png)
 
 - Step 5: 標記的格式
 
@@ -28,6 +28,7 @@ The annotation files are the dataset containing tables of data relating to songs
 
 
 - Step 6: 標記項目、順序與說明如下，詳細說明在Lable Help
+
 | 順序  | 項目(layer)                    | 標記(Lable)                                                                                                  | 說明                                                                             |
 | --- | ---------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | 1st | **特別標記**(**Special labels)** | silence, end                                                                                               | 標記音檔起始空白為silence；訊號起始點為silence-end；音樂結束點為silence；整個音檔最後一秒為end                  |
@@ -38,9 +39,8 @@ The annotation files are the dataset containing tables of data relating to songs
 **H:** Half (-V),
 **D:** Deceptive (V-x, x=ii、IV6、iv6、vi、VI) | 有用到此四個終止式即標記，標註在該終止式"**結束的時間點**"，例如V-I，就標 I 結束的時間點(因為那才是一個"分界")，label就標是哪一種終止式 |
 | 5th | **歌詞句(Lyric-based Phrase)**  | 無                                                                                                          | 標記出每句歌詞"**結束的時間點**”                                                            |
-
-![](C:\Users\Denny\Documents\PycharmProjects\NTHU_CS-RA-Music\annotation-expert\image\salami_annotation.PNG)
-
+![](image/annotation_toc.png)
+![](https://github.com/DennyHsieh/annotation-expert/blob/master/image/annotation_toc.png)
 
 
 - Step 7: 存檔方式
@@ -105,6 +105,8 @@ The annotation files are the dataset containing tables of data relating to songs
   - 並非每一首歌都擁有上述的每一項。例如若該首曲子沒有前奏，便不需要標。
   - 有時候前奏其實是用副歌的旋律(例：五月天〈你不是真正的快樂〉)
   - 有時候主歌與主歌之間有間奏(例：孫燕姿〈遇見〉頭兩次主歌之間三小節多)(inter or interlude)
+
+![](image/annotation_toc.png)
 
 **Demo**
 若想參考demo檔，請下載demo資料夾，並將示範音樂下載成mp3檔，將音樂檔命名為"0000000-零距離.mp3"後移動到demo資料夾內。

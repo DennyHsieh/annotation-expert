@@ -63,7 +63,7 @@ The annotation files are the dataset containing tables of data relating to songs
   - 每個大項目開一新的 Pane (Pane > Add New Pane) 做標記，各別存成一個檔。
   - 資料夾名稱：歌名-流水號
     - 歌名：“song_id-song_name.mp3”
-    - 流水號1-3
+    - 流水號1-3 (3人次中的第幾人次)
     - 0000000-零距離-1
   - 檔名取法：歌名-項目-流水號.csv
     - ex: 當歌名為 “零距離.mp3”時，歌曲ID為1000時，最後會輸出如下的檔案

@@ -7,6 +7,18 @@ The annotation files are the dataset containing tables of data relating to songs
 
 - Sonic Visualiser [下載](https://www.sonicvisualiser.org/download.html)
 
+**Common Shortcuts**
+
+| 快捷鍵        | 功能                                     |
+| ------------ | -------------------------------------- |
+| N            | Add New Pane, 新增加註工作視窗                 |
+| ;            | Time Instants Layer, 新增一個時間標記          |
+| space        | (空白鍵)播放歌曲                              |
+| ctrl+Z       | 復原                                     |
+| ctrl+Y       | Export Annotation Layer, 儲存.csv格式之加註檔案 |
+| ctrl+shift+S | Save Session As, 儲存.sv格式之工作檔           |
+
+
 **Procedures**
 
 - Step 1: 選擇上方選單File > Open > 選取歌曲，或是拖曳檔案，將歌曲加載到Sonic Visualiser，此時會顯示歌曲波形。
@@ -14,7 +26,7 @@ The annotation files are the dataset containing tables of data relating to songs
 ![](image/annotation_1.png)
 
 
-- Step 2:  選擇上方選單 Pane > Add New Pane 或快捷鍵 N 產生一個新的標記面板。此時若按分號鍵 (***;***) 會在黑色豎槓處產生一個標記 (Time Instants Layer) 。
+- Step 2:  選擇上方選單 Pane > Add New Pane 或快捷鍵 N 產生一個新的標記面板。此時若按分號鍵 (**;**) 會在黑色豎槓處產生一個標記 (Time Instants Layer) 。
 
 ![](image/annotation_2.png)
 
@@ -38,8 +50,8 @@ The annotation files are the dataset containing tables of data relating to songs
 | 順序  | 項目(layer)                    | 標記(Lable)                                                                                                  | 說明                                                                             |
 | --- | ---------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | 1st | **特別標記**(**Special labels)** | silence, end                                                                                               | 標記音檔起始空白為silence；訊號起始點為silence-end；音樂結束點為silence；整個音檔最後一秒為end                  |
-| 2nd | **結構(Structure)**            | intro, verse, chorus, inter, bridge, outro                                                                 | 標記出音樂架構中每個段落的**”起始處”**，另以程式生成相同結構標註相同大寫英文字母(A, B, C, …)，存為”StructurePlus”      |
-| 3rd | **樂句(Melody-based Phrase)**  | 相同樂句旋律需標註***相同小寫字母(a, b, c, ...)***                                                                        | 標記出每個”**樂句起始處”**                                                               |
+| 2nd | **結構(Structure)**            | intro, verse, chorus, inter, bridge, outro                                                                 | 標記出音樂架構中每個"**段落的起始處**"      |
+| 3rd | **樂句(Melody-based Phrase)**  | 相同樂句旋律需標註 **相同小寫字母(a, b, c, ...)**                                                                        | 標記出每個”**樂句起始處”**                                                               |
 | 4th | **終止式(Cadence)**             | **A:** Authentic (V-I), **P:** Plagal (IV-I), **H:** Half (-V), **D:** Deceptive (V-x, x=ii、IV6、iv6、vi、VI) | 有用到此四個終止式即標記，標註在該終止式"**結束的時間點**"，例如V-I，就標 I 結束的時間點(因為那才是一個"分界")，label就標是哪一種終止式 |
 | 5th | **歌詞句(Lyric-based Phrase)**  | 無                                                                                                          | 標記出每句歌詞"**結束的時間點**”                                                            |
 
@@ -89,11 +101,11 @@ The annotation files are the dataset containing tables of data relating to songs
 
 - 結構(Structure)標記說明
   - 前奏 (intro)：在一首歌開頭，導引出整首曲子。
-  - 前導主歌(pre-verse)：在前奏與主歌之間，導引出主歌的片段。(這部份我們沒分那麼細)不分的話，需要討論是要歸到verse還是others還是intro。其實分出來會比較方便一點。
+  - 前導主歌(pre-verse)：在前奏與主歌之間，導引出主歌的片段。
     - 例1：新寶島康樂隊〈鼓聲若響〉主歌開始前三小節
     - 例2：Queen "Bohemian Rhapsody" 主歌開始前二小節
   - 主歌 (verse)：通常主歌會在樂曲中重複，相較於副歌，主歌的歌詞較容易在每一次重覆時變化。
-  - 前導副歌 (pre-chorus)：在主歌與副歌之間，導引出副歌的片段。(這部份我們沒分那麼細)前導副歌是很常見的，建議特別分類。前導主歌可以不用分出來沒關係。OK，那我再增加此部分DEMO
+  - 前導副歌 (pre-chorus)：在主歌與副歌之間，導引出副歌的片段。
     - 例1：陳奕迅〈十年〉副歌開始前八小節
     - 例2：胡夏〈那些年〉副歌開始前八小節
   - 副歌 (chorus)： 一首歌中最被強調、重複最多的片段。
@@ -104,7 +116,7 @@ The annotation files are the dataset containing tables of data relating to songs
   - 其他 (others)：自成一段但無法分的，如暫停(break)、刻意的延長(suspension)、無音樂進行之對話、環境聲等等。
 
 
-- ***注意事項：***
+- **注意事項：**
   - 並非每一首歌都擁有上述的每一項。例如若該首曲子沒有前奏，便不需要標。
   - 有時候前奏其實是用副歌的旋律(例：五月天〈你不是真正的快樂〉)
   - 有時候主歌與主歌之間有間奏(例：孫燕姿〈遇見〉頭兩次主歌之間三小節多)(inter or interlude)
@@ -120,9 +132,6 @@ The annotation files are the dataset containing tables of data relating to songs
 - 示範音樂：https://www.youtube.com/watch?v=94SsKt8p5jA
 - 示範和弦譜：http://www.guitar-score.tw/2012/07/double-2.html, https://github.com/DennyHsieh/annotation-expert/tree/master/image/0000000-零距離-chord.jpg
 
-**Unsolved Problem**
-
-1. Cadence可用譜參考
 
 **Reference**
 
@@ -131,19 +140,14 @@ The annotation files are the dataset containing tables of data relating to songs
 - [SALAMI annotation guide](http://www.music.mcgill.ca/~jordan/salami/SALAMI-Annotator-Guide.pdf)
 
 
-## Special Thanks for
+## Especially Thanks
 - Li Su, Academia Sinica, Institute of Information Science, Taiwan
 - Charles Chu, Dep. of Music, National Tsing Hua University, Hsinchu, Taiwan 
 - Yun-Ting Lai, Dep. of Music, National Tsing Hua University, Hsinchu, Taiwan 
 
 
-## List of Tables
-
-To be completed
-
-
 ## Note
-- 歌詞句標記範例
+歌詞句標記範例
   - Ex.1
 > 還記得我們曾經 肩並肩一起走過 那段繁華巷口/
 > 儘管你我是陌生人 是過路人/

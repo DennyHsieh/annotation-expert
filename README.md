@@ -74,6 +74,7 @@ The annotation files are the dataset containing tables of data relating to songs
       - 0001000-零距離-lyricPhrase-1.csv
   - 再選擇 File > Save Session As 以儲存工作檔，檔名：歌名-流水號，檔案格式為 .sv。
       - 0001000-零距離-1.sv
+  - 全部結束後，將原本mp3檔刪除
 - Step 8(處理資料人員實作): 寫程式，產生相同結構時，標註相同大寫英文字母(A, B, C, …)
   - 檔名：歌名-structurePlus-流水號.csv
       - 0001000-零距離-structurePlus-1.csv
@@ -116,6 +117,19 @@ The annotation files are the dataset containing tables of data relating to songs
   - 其他 (others)：自成一段但無法分的，如暫停(break)、刻意的延長(suspension)、無音樂進行之對話、環境聲等等。
 
 
+- 可參考之結構: http://www.musicbook.com.tw/searchSong/index.asp
+  - verse, chorus標在第一個音
+  - 通通標在過門之後(開始唱的瞬間)
+
+
+- 終止式標記說明
+  - 有聽到終止式都標
+  - 大原則：標大一點的段落
+    - 比旋律句與歌詞句大，而比整個主歌或副歌段落小
+    - 預計大多數(80~90%)的終止式為半終止(H)與正格終止(A)
+  - 特殊狀況：以音樂家的意見為主，如果在以上原則之外有覺得很明顯的終止式，歡迎根據音樂家自己的見解進行標註，允許個人見解之不同
+
+
 - **注意事項：**
   - 並非每一首歌都擁有上述的每一項。例如若該首曲子沒有前奏，便不需要標。
   - 有時候前奏其實是用副歌的旋律(例：五月天〈你不是真正的快樂〉)
@@ -144,6 +158,7 @@ The annotation files are the dataset containing tables of data relating to songs
 - Li Su, Academia Sinica, Institute of Information Science, Taiwan
 - Charles Chu, Dep. of Music, National Tsing Hua University, Hsinchu, Taiwan 
 - Yun-Ting Lai, Dep. of Music, National Tsing Hua University, Hsinchu, Taiwan 
+- Nian-Xun Xie, Dep. of Music, National Tsing Hua University, Hsinchu, Taiwan 
 
 
 ## Note

@@ -53,7 +53,7 @@ The annotation files are the dataset containing tables of data relating to songs
 | 2nd | **結構(Structure)**            | intro <br>pre-verse <br>verse <br>pre-chorus <br>chorus <br>inter <br>bridge <br>outro <br>others          | 標記出音樂架構中每個"**段落的起始處**"      |
 | 3rd | **樂句(Melody-based Phrase)**  | 相同樂句旋律需標註 **相同小寫字母(a, b, c, ...)**                                                                        | 標記出每個”**樂句起始處”**                                                               |
 | 4th | **終止式(Cadence)**             | **A:** Authentic (V-I) <br>**P:** Plagal (IV-I) <br>**H:** Half (-V) <br>**D:** Deceptive (V-x, x=ii、IV6、iv6、vi、VI) | 有用到此四個終止式即標記，標註在該終止式"**結束的時間點**"，例如V-I，就標 I 結束的時間點(因為那才是一個"分界")，label就標是哪一種終止式 |
-| 5th | **歌詞句(Lyric-based Phrase)**  | 一段歌詞結束的時間點                                                                                             | 標記出每句歌詞"**結束的時間點**”                                                            |
+| 5th | **歌詞句(Lyric-based Phrase)**  | 一段歌詞結束的時間點，依序使用大寫英文字母(A, B, C, …)                                                                                         | 標記出每句歌詞"**結束的時間點**”                                                            |
 
 ![](image/annotation_toc.jpg)
 
@@ -131,6 +131,7 @@ The annotation files are the dataset containing tables of data relating to songs
   - 結構是以角色功能來區分，並非材料內容。譬如前奏可能用副歌的旋律(例：五月天〈你不是真正的快樂〉)，或者尾奏用副歌的片段等等，此時仍然標intro或outro，而非chorus。
   - 有時候主歌與主歌之間有間奏(例：孫燕姿〈遇見〉頭兩次主歌之間三小節多)(inter or interlude)
   - 手動標記位置時，時間點請盡量精準。事後檢查時，若聽音能力佳或者已經熟悉內容，可以透過主畫面右下方的 Playback Spped 調整播放速度，以節省時間。
+  - 若26個英文字母不夠用，則比照Excel欄位使用aa、ab、ac（樂句）或AA、AB、AC（歌詞句）等，依此類推。
 
 ![](image/salami_annotation.PNG)
 

@@ -190,8 +190,8 @@ The annotation files are the dataset containing tables of data relating to songs
 > 我們之間零距離/<br>
 > 感傷的距離 有了思念而分開/<br>
 > 快樂的距離 是你永遠在我身旁/<br>
-> 有多少公里 才能築成完整愛情<br>
-> 距離別讓我們分開<br>
+> 有多少公里 才能築成完整愛情/<br>
+> 距離別讓我們分開/<br>
 > 距離你快點走開/<br>
 > 我們之間 零距離/
 

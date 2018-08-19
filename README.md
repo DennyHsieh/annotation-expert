@@ -122,7 +122,7 @@ The annotation files are the dataset containing tables of data relating to songs
   - 終止式經常與樂句或段落位置有關，所以一句 I-IV-I-V-I-V-vi之內，如果只是單純將比對規則套用下去，會出現好幾個終止式。此時要反問自己，是否真的有終止效果；若是，句子該如何修正劃分。
   - 特殊狀況：以音樂家的意見為主，允許個人見解之不同。
 
-- **注意事項：**
+- 注意事項：
   - 並非每一首歌都擁有上述的每一項。例如若該首曲子沒有前奏，便不需要標。
   - 結構、樂句是標起始點，不必非得等到前一個單位結束之後才標。
   - 結構、樂句起始點接近的地方，未必一定對齊同一時刻，須視音樂內容而定。例：
@@ -144,7 +144,7 @@ The annotation files are the dataset containing tables of data relating to songs
 - 示範檔案：https://github.com/DennyHsieh/annotation-expert/tree/master/demo
 - 示範音樂：https://www.youtube.com/watch?v=94SsKt8p5jA
 - 參考和弦譜：http://www.guitar-score.tw/2012/07/double-2.html, https://github.com/DennyHsieh/annotation-expert/tree/master/image/0000000-零距離-chord.jpg
-- intro比樂句a稍微早開始，差異的那一小段可視為intro的intro。類似Edvard Grieg的Piano Concerto in A minor, Op.16開頭定音鼓之作用。https://youtu.be/I1Yoyz6_Los
+- intro比樂句a稍微早開始，差異的那一小段可視為intro的intro。類似Edvard Grieg的A小調鋼琴協奏曲開頭定音鼓之作用：https://youtu.be/I1Yoyz6_Los
 - 「成了撲朔迷離的代表」，剛好是最後一字時，走到了V7-I的I，整句結束後，才緊接著出現vi7，所以把這個V7-I當作Authentic終止式，vi7是兩句大段落之間的轉折，亦可直接當成chorus的開始。chorus最慢從「遙遠的」就起算，而非等到「距離」才開始。
 - 「才能築成完整愛情」，還沒唱完就走到vi，所以這句其實全程是V-I-vi7才走完，沒有符合的終止式。
 

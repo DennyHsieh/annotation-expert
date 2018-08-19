@@ -134,9 +134,6 @@ The annotation files are the dataset containing tables of data relating to songs
   - 手動標記位置時，時間點請盡量精準。事後檢查時，若聽音能力佳或者已經熟悉內容，可以透過主畫面右下方的 Playback Spped 調整播放速度，以節省時間。
   - 若26個英文字母不夠用，則比照Excel欄位使用aa、ab、ac（樂句）或AA、AB、AC（歌詞句）等，依此類推。
 
-![](image/salami_annotation.PNG)
-
-
 **Demo**
 
 若想參考demo檔，請下載demo資料夾，並將示範音樂下載成mp3檔，將音樂檔命名為"0000000-零距離.mp3"後移動到demo資料夾內。

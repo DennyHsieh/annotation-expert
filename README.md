@@ -122,7 +122,7 @@ The annotation files are the dataset containing tables of data relating to songs
   - 終止式經常與樂句或段落位置有關，所以一句 I-IV-I-V-I-V-vi之內，如果只是單純將比對規則套用下去，會出現好幾個終止式。此時要反問自己，是否真的有終止效果；若是，句子該如何修正劃分。
   - 特殊狀況：以音樂家的意見為主，允許個人見解之不同。
 
-- 注意事項：
+- 注意事項
   - 並非每一首歌都擁有上述的每一項。例如若該首曲子沒有前奏，便不需要標。
   - 結構、樂句是標起始點，不必非得等到前一個單位結束之後才標。
   - 結構、樂句起始點接近的地方，未必一定對齊同一時刻，須視音樂內容而定。例：
@@ -134,9 +134,9 @@ The annotation files are the dataset containing tables of data relating to songs
   - 手動標記位置時，時間點請盡量精準。事後檢查時，若聽音能力佳或者已經熟悉內容，可以透過主畫面右下方的 Playback Spped 調整播放速度，以節省時間。
   - 若26個英文字母不夠用，則比照Excel欄位使用aa、ab、ac（樂句）或AA、AB、AC（歌詞句）等，依此類推。
 
-**Demo**
+**範例檔**
 
-若想參考demo檔，請下載demo資料夾，並將示範音樂下載成mp3檔，將音樂檔命名為"0000000-零距離.mp3"後移動到demo資料夾內。
+若想參考範例檔，請下載demo資料夾，並將示範音樂下載成mp3檔，將音樂檔命名為"0000000-零距離.mp3"後移動到demo資料夾內。
 
 - 示範檔案：https://github.com/DennyHsieh/annotation-expert/tree/master/demo
 - 示範音樂：https://www.youtube.com/watch?v=94SsKt8p5jA

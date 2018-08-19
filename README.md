@@ -117,18 +117,19 @@ The annotation files are the dataset containing tables of data relating to songs
   - 其他 (others)：自成一段但無法分的，如暫停(break)、刻意的延長(suspension)、無音樂進行之對話、環境聲等等。
 
 - 終止式標記說明
+  - 即使知道和弦，或者上網找到譜，也無法直接判斷終止式，因為必須先確定目前所在的調性，再轉換成羅馬級數，才能分類終止式。譜上可能只會標整首起始的調性，所以聆聽時要注意是否有轉調。
   - 樂句或樂曲結束處，即使有終止感，也未必符合特定的終止式語法，此時不標終止式。
-  - 終止式經常與樂句或段落位置有關，所以一句 I-V-I-IV-I-V-vi之內，如果只是單純將比對規則套用下去，會出現好幾個終止式。此時要反問自己，是否真的有終止效果；若是，句子該如何修正劃分。
+  - 終止式經常與樂句或段落位置有關，所以一句 I-IV-I-V-I-V-vi之內，如果只是單純將比對規則套用下去，會出現好幾個終止式。此時要反問自己，是否真的有終止效果；若是，句子該如何修正劃分。
   - 特殊狀況：以音樂家的意見為主，允許個人見解之不同。
 
 - **注意事項：**
   - 並非每一首歌都擁有上述的每一項。例如若該首曲子沒有前奏，便不需要標。
   - 結構、樂句是標起始點，不必非得等到前一個單位結束之後才標。
-  - 結構、樂句起始點接近的地方，未必一定對齊同一時刻，須視音樂內容而定。
+  - 結構、樂句起始點接近的地方，未必一定對齊同一時刻，須視音樂內容而定。例：
   - 終止式、歌詞句是標結束點，不必非得要標在後一個單位開始之前。
   - 終止式、歌詞句結束點接近的地方，未必一定對齊同一時刻，須視音樂內容而定。
   - 所謂起始點、結束點也可以是落在弱起拍的地方，並非一定標在正拍。
-  - 結構是以角色功能來區分，並非材料內容。譬如前奏可能用副歌的旋律(例：五月天〈你不是真正的快樂〉)，或者尾奏用副歌的片段等等，此時仍然標intro或outro，而非chorus。
+  - 結構是以角色功能來區分，並非材料內容。譬如前奏可能用副歌的旋律(例：五月天〈你不是真正的快樂〉)、間奏用前奏的片段、尾奏用副歌的片段(例：張雨生〈天天想你〉)等等，此時仍然標它在此段的作用，而非其來源段落。
   - 有時候主歌與主歌之間有間奏(例：孫燕姿〈遇見〉頭兩次主歌之間三小節多)(inter or interlude)
   - 手動標記位置時，時間點請盡量精準。事後檢查時，若聽音能力佳或者已經熟悉內容，可以透過主畫面右下方的 Playback Spped 調整播放速度，以節省時間。
   - 若26個英文字母不夠用，則比照Excel欄位使用aa、ab、ac（樂句）或AA、AB、AC（歌詞句）等，依此類推。
@@ -142,7 +143,10 @@ The annotation files are the dataset containing tables of data relating to songs
 
 - 示範檔案：https://github.com/DennyHsieh/annotation-expert/tree/master/demo
 - 示範音樂：https://www.youtube.com/watch?v=94SsKt8p5jA
-- 示範和弦譜：http://www.guitar-score.tw/2012/07/double-2.html, https://github.com/DennyHsieh/annotation-expert/tree/master/image/0000000-零距離-chord.jpg
+- 參考和弦譜：http://www.guitar-score.tw/2012/07/double-2.html, https://github.com/DennyHsieh/annotation-expert/tree/master/image/0000000-零距離-chord.jpg
+- intro比樂句a稍微早開始，差異的那一小段可視為intro的intro。類似Edvard Grieg的Piano Concerto in A minor, Op.16開頭定音鼓之作用。https://youtu.be/I1Yoyz6_Los
+- 「成了撲朔迷離的代表」，剛好是最後一字時，走到了V7-I的I，主唱都長音收了，才出現vi7，所以我會把這個V7-I當作Authentic終止式，vi7是兩句大段落之間的轉折或者算入chorus的開始。chorus至少從「遙遠的」就可起算，而非等到「距離」才開始。
+- 「才能築成完整愛情」，還沒唱完就走到vi，所以這句其實全程是V-I-vi7才走完，沒有符合的終止式。
 
 
 **Reference**

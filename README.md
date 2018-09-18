@@ -74,7 +74,7 @@ The annotation files are the dataset containing tables of data relating to songs
       - 0001000-零距離-lyricPhrase-1.csv
   - 再選擇 File > Save Session As 以儲存工作檔，檔名：歌名-流水號，檔案格式為 .sv。
       - 0001000-零距離-1.sv
-  - 全部結束後，將原本mp3檔刪除
+  - 全部結束後，將原本MP3檔刪除
 - Step 8(處理資料人員實作): 寫程式，產生相同結構時，標註相同大寫英文字母(A, B, C, …)
   - 檔名：歌名-structurePlus-流水號.csv
       - 0001000-零距離-structurePlus-1.csv

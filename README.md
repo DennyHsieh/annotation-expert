@@ -137,7 +137,7 @@ The annotation files are the dataset containing tables of data relating to songs
 
 **範例檔**
 
-若想參考範例檔，請下載demo資料夾，並將示範音樂下載成MP3檔，將音樂檔命名為"0000000-零距離.mp3"後移動到demo資料夾內。
+若想參考範例檔，請下載demo資料夾，並將示範音樂自行下載成MP3檔，將音樂檔命名為"0000000-零距離.mp3"後移動到demo資料夾內。
 
 - 示範檔案：https://github.com/DennyHsieh/annotation-expert/tree/master/demo
 - 示範音樂：https://www.youtube.com/watch?v=94SsKt8p5jA

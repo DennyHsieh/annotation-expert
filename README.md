@@ -61,11 +61,12 @@ The annotation files are the dataset containing tables of data relating to songs
 - Step 7: 存檔方式
   - 選擇 File > Export Annotation Layer 以儲存 Annotation 檔案，檔案格式為 .csv。
   - 每個大項目開一新的 Pane (Pane > Add New Pane) 做標記，各別存成一個檔。
-  - 資料夾名稱：歌名-流水號
-    - 歌名：“song_id-song_name”
-    - 流水號1-3 (3人次中的第幾人次)
+  - 資料夾命名法：歌號-歌名-流水號
+    - 歌號：“song_id”
+    - 歌名：“song_name”
+    - 流水號1或2或3（3人次中的第幾人次，依照團隊公告之曲目分配表序號。）
     - 0000000-零距離-1
-  - 檔名取法：歌名-項目-流水號.csv
+  - 檔名命名法：歌名-項目-流水號.csv
     - ex: 當歌名為 “零距離.mp3”時，歌曲ID為1000時，最後會輸出如下的檔案
       - 0001000-零距離-special-1.csv
       - 0001000-零距離-structure-1.csv
@@ -75,7 +76,7 @@ The annotation files are the dataset containing tables of data relating to songs
   - 再選擇 File > Save Session As 以儲存工作檔，檔名：歌名-流水號，檔案格式為 .sv。
       - 0001000-零距離-1.sv
   - 全部結束後，將原本MP3檔刪除
-- Step 8(處理資料人員實作): 寫程式，產生相同結構時，標註相同大寫英文字母(A, B, C, …)
+- Step 8（處理資料人員實作，加註者請忽略此步驟）：寫程式，產生相同結構時，標註相同大寫英文字母(A, B, C, …)
   - 檔名：歌名-structurePlus-流水號.csv
       - 0001000-零距離-structurePlus-1.csv
 

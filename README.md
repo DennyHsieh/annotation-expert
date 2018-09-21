@@ -66,7 +66,7 @@ The annotation files are the dataset containing tables of data relating to songs
     - 歌名：「song_name」
     - 流水號1或2或3（3人次中的第幾人次，依照團隊公告之曲目分配表序號。）
     - 0000000-零距離-1
-  - 檔名命名法：歌名-項目-流水號.csv
+  - 檔案命名法：歌名-項目-流水號.csv
     - 例：當歌名為 「零距離.mp3」時，歌曲ID為1000時，最後會輸出如下的檔案
       - 0001000-零距離-special-1.csv
       - 0001000-零距離-structure-1.csv

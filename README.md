@@ -73,7 +73,7 @@ The annotation files are the dataset containing tables of data relating to songs
       - 0001000-零距離-melodyPhrase-1.csv
       - 0001000-零距離-cadence-1.csv
       - 0001000-零距離-lyricPhrase-1.csv
-      - 若遇到確定無相對應內容（終止式、歌詞等）的樂曲，請複製demo資料夾裡面的「0000000-empty-example-0.csv」並依照規範修改檔名。
+      - 若遇到確定無相對應內容（終止式、歌詞等）的樂曲，請複製demo資料夾裡面的「0000000-empty-example-0.csv」並依照規範修改檔名。請將整個專案從GitHub下載成ZIP壓縮檔之後再解壓縮，不要使用網頁瀏覽器直接單獨另存該檔案，否則內容可能會不同。
   - 再選擇 File > Save Session As 以儲存工作檔，檔名：歌名-流水號，檔案格式為 .sv。
       - 0001000-零距離-1.sv
   - 全部結束後，將原本MP3檔刪除

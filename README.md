@@ -155,7 +155,7 @@ The annotation files are the dataset containing tables of data relating to songs
 
 - Sonic Visualiser [3.1.1 版本說明檔](https://www.sonicvisualiser.org/doc/reference/3.1.1/en/)，特別注意以下章節。
   - 6.5 Time Instants Layer
-  - 10. Annotation by Tapping
+  - 10 Annotation by Tapping
   - 12.3 Annotation Layer Import
 - [SALAMI annotation guide](http://www.music.mcgill.ca/~jordan/salami/SALAMI-Annotator-Guide.pdf)
 

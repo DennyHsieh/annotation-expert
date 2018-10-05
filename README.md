@@ -164,10 +164,10 @@ The annotation files are the dataset containing tables of data relating to songs
 - Li Su, Assistant Research Fellow, Institute of Information Science, Academia Sinica
 - Hsin-Ming Lin, Postdoctoral Research Fellow, Institute of Information Systems and Applications, National Tsing Hua University
 - Tung-Ching Hsieh, Research Assistant, Institute of Information Systems and Applications, National Tsing Hua University
-- Charles Chu, Department of Music, National Tsing Hua University, Hsinchu
-- Yun-Ting Lai, Department of Music, National Tsing Hua University, Hsinchu
-- Wen-Yu Hsu, Department of Music, National Tsing Hua University, Hsinchu
-- Nian-Xun Xie, Department of Music, National Tsing Hua University, Hsinchu
+- Charles Chu, Graduate Student, Department of Music, National Tsing Hua University
+- Yun-Ting Lai, Graduate Student, Department of Music, National Tsing Hua University
+- Wen-Yu Hsu, Graduate Student, Department of Music, National Tsing Hua University
+- Nian-Xun Xie, Graduate Student, Department of Music, National Tsing Hua University
 
 ## Note
 歌詞句標記範例

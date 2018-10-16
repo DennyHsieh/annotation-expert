@@ -13,10 +13,10 @@ The annotation files are the dataset containing tables of data relating to songs
 | ------------ | -------------------------------------- |
 | N            | Add New Pane, 新增加註工作視窗                 |
 | ;            | Time Instants Layer, 新增一個時間標記          |
-| space        | (空白鍵)播放歌曲                              |
-| ctrl+Z       | 復原                                     |
-| ctrl+Y       | Export Annotation Layer, 儲存.csv格式之加註檔案 |
-| ctrl+shift+S | Save Session As, 儲存.sv格式之工作檔           |
+| Space        | (空白鍵)播放歌曲                              |
+| Ctrl+Z       | 復原                                     |
+| Ctrl+Y       | Export Annotation Layer, 儲存.csv格式之加註檔案。須在目標Pane選第三層（Time Instants）Layer，才能按Ctrl+Y輸出。 |
+| Ctrl+Shift+S | Save Session As, 儲存.sv格式之工作檔           |
 
 
 **Procedures**

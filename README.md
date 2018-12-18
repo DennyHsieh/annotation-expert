@@ -161,7 +161,7 @@ The annotation files are the dataset containing tables of data relating to songs
   - 6.5: Time Instants Layer
   - 10: Annotation by Tapping
   - 12.3: Annotation Layer Import
-- [SALAMI annotation guide (2010)](http://www.music.mcgill.ca/~jordan/salami/SALAMI-Annotator-Guide.pdf)
+- [SALAMI Annotator's Guide (2010)](http://www.music.mcgill.ca/~jordan/salami/SALAMI-Annotator-Guide.pdf)
 - [機器學習與智慧音樂應用 (2017)](https://speakerdeck.com/fukuball/machine-learning-and-the-intelligent-music-application)
 - [電腦音樂：歷史沿革與研究近況 (2014)](http://ee.ntu.edu.tw/upload/hischool/doc/2014.03.pdf)
 

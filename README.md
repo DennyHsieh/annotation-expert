@@ -30,7 +30,7 @@ The annotation files are the dataset containing tables of data relating to songs
 
 ![](image/annotation_2.png)
 
-- Step 3:  增加五個新的標記面板之後，選擇上方選單 View > Show Layer Summery 或快捷鍵 Y，參考下圖設定方式，關閉加註點的聲響提示，以及加註軌的尺規顯示。
+- Step 3:  增加五個新的標記面板之後，選擇上方選單 View > Show Layer Summery 或快捷鍵 Y，參考下圖設定方式，關閉加註點的聲響提示，以及加註軌的尺規顯示。備註：在本說明的其它圖例中，尺規顯示是未關閉的狀態；demo資料夾中的範例檔則有關閉。
 
 ![](image/layer_summary.jpg)
 
@@ -145,7 +145,7 @@ The annotation files are the dataset containing tables of data relating to songs
 
 **範例檔**
 
-欲參考範例檔，請下載demo資料夾，並將示範音樂自行下載成MP3檔，將音樂檔命名為"0000000-零距離.mp3"後移動到demo資料夾內。實際執行任務時，將會提供參與者MP3檔，無須另外下載。
+欲參考範例檔，請按本網站右上方「Clone or download」綠色按鈕下載，並將示範音樂自行下載成MP3檔，將音樂檔命名為"0000000-零距離.mp3"後移動到demo資料夾內。實際執行任務時，將會提供參與者MP3檔，無須另外下載。
 
 - 示範檔案：https://github.com/DennyHsieh/annotation-expert/tree/master/demo
 - 示範音樂：https://www.youtube.com/watch?v=94SsKt8p5jA

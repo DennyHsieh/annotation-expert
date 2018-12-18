@@ -156,14 +156,15 @@ The annotation files are the dataset containing tables of data relating to songs
 - 「才能築成完整愛情」，還沒唱完就走到vi，所以這句其實全程是V-I-vi7才走完，沒有符合的終止式。
 
 
-**Reference**
+**References**
 
 - Sonic Visualiser [3.1.1 版本說明檔](https://www.sonicvisualiser.org/doc/reference/3.1.1/en/)，特別注意以下章節。
   - 6.5: Time Instants Layer
   - 10: Annotation by Tapping
   - 12.3: Annotation Layer Import
-- [SALAMI annotation guide](http://www.music.mcgill.ca/~jordan/salami/SALAMI-Annotator-Guide.pdf)
-
+- [SALAMI annotation guide (2010)](http://www.music.mcgill.ca/~jordan/salami/SALAMI-Annotator-Guide.pdf)
+- [機器學習與智慧音樂應用 (2017)](https://speakerdeck.com/fukuball/machine-learning-and-the-intelligent-music-application)
+- [電腦音樂：歷史沿革與研究近況 (2014)](http://ee.ntu.edu.tw/upload/hischool/doc/2014.03.pdf)
 
 ## Credits
 - Li Su, Assistant Research Fellow, Institute of Information Science, Academia Sinica

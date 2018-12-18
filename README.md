@@ -77,7 +77,7 @@ The annotation files are the dataset containing tables of data relating to songs
       - 0001000-零距離-melodyPhrase-1.csv
       - 0001000-零距離-cadence-1.csv
       - 0001000-零距離-lyricPhrase-1.csv
-      - 若遇到確定無相對應內容（終止式、歌詞等）的樂曲，請複製demo資料夾裡面的「0000000-empty-example-0.csv」並依照規範修改檔名。請將整個專案從GitHub下載成ZIP壓縮檔之後再解壓縮，不要使用網頁瀏覽器直接單獨另存該檔案，否則內容可能會不同。
+      - 若遇到確定無相對應內容（終止式、歌詞等）的樂曲，請複製demo資料夾裡面的「0000000-empty-example-0.csv」並依照規範修改檔名。請按本網站右上方「Clone or download」綠色按鈕下載ZIP壓縮檔再解壓縮，不要使用網頁瀏覽器直接單獨另存該檔案，否則內容可能會不同。
   - 再選擇 File > Save Session As 以儲存工作檔，檔名：歌名-流水號，檔案格式為 .sv。
       - 0001000-零距離-1.sv
   - 每首工作完成後，請將原本MP3檔刪除，以免觸法。
@@ -145,9 +145,9 @@ The annotation files are the dataset containing tables of data relating to songs
 
 **範例檔**
 
-欲參考範例檔，請按本網站右上方「Clone or download」綠色按鈕下載，並將示範音樂自行下載成MP3檔，將音樂檔命名為"0000000-零距離.mp3"後移動到demo資料夾內。實際執行任務時，將會提供參與者MP3檔，無須另外下載。
+欲參考範例檔，請按本網站右上方「Clone or download」綠色按鈕下載ZIP壓縮檔再解壓縮，並將示範音樂自行下載成MP3檔，將音樂檔命名為"0000000-零距離.mp3"後移動到demo資料夾內。實際執行任務時，將會提供參與者MP3檔，無須另外下載。
 
-- 示範檔案：https://github.com/DennyHsieh/annotation-expert/tree/master/demo
+- 專案網址：https://github.com/DennyHsieh/annotation-expert/
 - 示範音樂：https://www.youtube.com/watch?v=94SsKt8p5jA
 - 參考和弦譜：http://www.guitar-score.tw/2012/07/double-2.html, https://github.com/DennyHsieh/annotation-expert/tree/master/image/0000000-零距離-chord.jpg
 - intro比樂句a稍微早開始，差異的那一小段可視為intro的intro。類似Edvard Grieg的A小調鋼琴協奏曲開頭定音鼓之作用：https://youtu.be/I1Yoyz6_Los

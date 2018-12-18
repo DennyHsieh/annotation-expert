@@ -11,12 +11,13 @@ The annotation files are the dataset containing tables of data relating to songs
 
 | 快捷鍵        | 功能                                     |
 | ------------ | -------------------------------------- |
-| N            | Add New Pane, 新增加註工作視窗                 |
-| ;            | Time Instants Layer, 新增一個時間標記          |
+| N            | Add New Pane：新增加註工作視窗                 |
+| Y            | Show Layer Summery：各加註軌設定                 |
+| ;            | Time Instants Layer：新增一個時間標記          |
 | Space        | (空白鍵)播放歌曲                              |
 | Ctrl+Z       | 復原                                     |
-| Ctrl+Y       | Export Annotation Layer, 儲存.csv格式之加註檔案。須在目標Pane選第三層（Time Instants）Layer，才能按Ctrl+Y輸出。 |
-| Ctrl+Shift+S | Save Session As, 儲存.sv格式之工作檔           |
+| Ctrl+Y       | Export Annotation Layer：儲存.csv格式之加註檔案。須在目標Pane選第三層（Time Instants）Layer，才能按Ctrl+Y輸出。 |
+| Ctrl+Shift+S | Save Session As：儲存.sv格式之工作檔           |
 
 
 **Procedures**
@@ -36,7 +37,7 @@ The annotation files are the dataset containing tables of data relating to songs
 
 
 - Step 4: 按下播放(或空白鍵)並聆聽音樂，並在欲標記處按下分號鍵 (*;*) 以作標記。如果錯過的話，可按暫停播放(或再一下空白鍵)並拖移音軌至欲標記處，重新做標記。按ctrl+z (mac: command + z) 可以退回上一步。
-- Step 5: 整首歌標記完後，選擇上方選單 Layer > Edit Layer Data 或按快捷鍵E打開圖層數據編輯視窗 (Data Editor)，將打開一個新視窗。第一欄為時間 (已自動轉換為秒)，在第三欄輸入標記的文字敘述 (例如 intro, verse, chorus, bridge等等。)
+- Step 5: 整首歌標記完後，選擇上方選單 Layer > Edit Layer Data 或按快捷鍵E打開圖層數據編輯視窗 (Data Editor)，將打開一個新視窗。第一欄為時間 (已自動轉換為秒)，在第三欄輸入標記的文字敘述 (例如 intro、verse、chorus、bridge等等。)
 
 ![](image/annotation_3.png)
 
@@ -88,7 +89,7 @@ The annotation files are the dataset containing tables of data relating to songs
 **Lable Help**
 
 - 結構標示方法
-  - Structure, Melody-based Phrase，只標起始
+  - Structure、Melody-based Phrase，只標起始
     - Example 1：某首歌的 61秒至76秒為Bridge，76秒至106秒為Chorus，則標記如下：
 
     | Time     | Frame | Label  |
@@ -97,7 +98,7 @@ The annotation files are the dataset containing tables of data relating to songs
     | 1:16.000 | xxx   | chorus |
 
 
-  - Cadence, Lyric-based Phrase，只標結尾
+  - Cadence、Lyric-based Phrase，只標結尾
     - Example 2：某首歌的61秒至76秒為歌詞句A，81秒至111秒為歌詞句B，則標記如下：
 
     | Time     | Frame | Label |

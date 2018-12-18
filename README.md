@@ -155,8 +155,7 @@ The annotation files are the dataset containing tables of data relating to songs
 - 「成了撲朔迷離的代表」，剛好是最後一字時，走到了V7-I的I，整句結束後，才緊接著出現vi7，所以把這個V7-I當作Authentic終止式，vi7是兩句大段落之間的轉折，亦可直接當成chorus的開始。chorus最慢從「遙遠的」就起算，而非等到「距離」才開始。
 - 「才能築成完整愛情」，還沒唱完就走到vi，所以這句其實全程是V-I-vi7才走完，沒有符合的終止式。
 
-
-**References**
+## References
 
 - Sonic Visualiser [3.1.1 版本說明檔](https://www.sonicvisualiser.org/doc/reference/3.1.1/en/)，特別注意以下章節。
   - 6.5: Time Instants Layer

@@ -30,14 +30,18 @@ The annotation files are the dataset containing tables of data relating to songs
 
 ![](image/annotation_2.png)
 
+- Step 3:  增加五個新的標記面板之後，選擇上方選單 View > Show Layer Summery 或快捷鍵 Y，參考下圖設定方式，關閉加註點的聲響提示，以及加註軌的尺規顯示。
 
-- Step 3: 按下播放(或空白鍵)並聆聽音樂，並在欲標記處按下分號鍵 (*;*) 以作標記。如果錯過的話，可按暫停播放(或再一下空白鍵)並拖移音軌至欲標記處，重新做標記。按ctrl+z (mac: command + z) 可以退回上一步。
-- Step 4: 整首歌標記完後，選擇上方選單 Layer > Edit Layer Data 或按快捷鍵E打開圖層數據編輯視窗 (Data Editor)，將打開一個新視窗。第一欄為時間 (已自動轉換為秒)，在第三欄輸入標記的文字敘述 (例如 intro, verse, chorus, bridge等等。)
+![](image/layer_summary.jpg)
+
+
+- Step 4: 按下播放(或空白鍵)並聆聽音樂，並在欲標記處按下分號鍵 (*;*) 以作標記。如果錯過的話，可按暫停播放(或再一下空白鍵)並拖移音軌至欲標記處，重新做標記。按ctrl+z (mac: command + z) 可以退回上一步。
+- Step 5: 整首歌標記完後，選擇上方選單 Layer > Edit Layer Data 或按快捷鍵E打開圖層數據編輯視窗 (Data Editor)，將打開一個新視窗。第一欄為時間 (已自動轉換為秒)，在第三欄輸入標記的文字敘述 (例如 intro, verse, chorus, bridge等等。)
 
 ![](image/annotation_3.png)
 
 
-- Step 5: 標記的格式
+- Step 6: 標記的格式
 
 | Time | Frame  | Label |
 | ---- | ------ | ----- |
@@ -45,7 +49,7 @@ The annotation files are the dataset containing tables of data relating to songs
 | 結束時間 | （自動帶出） | 標記名稱  |
 
 
-- Step 6: 標記項目、順序與說明如下，詳細說明在Lable Help
+- Step 7: 標記項目、順序與說明如下，詳細說明在Lable Help
 
 | 順序  | 項目(layer)                    | 標記(Labels)                                                                                                | 說明                                                                             |
 | --- | ---------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
@@ -58,7 +62,7 @@ The annotation files are the dataset containing tables of data relating to songs
 ![](image/annotation_toc.jpg)
 
 
-- Step 7: 存檔方式
+- Step 8: 存檔方式
   - 選擇 File > Export Annotation Layer 以儲存 Annotation 檔案，檔案格式為 .csv。
   - 每個大項目開一新的 Pane (Pane > Add New Pane) 做標記，各別存成一個檔。
   - 資料夾命名法：歌號-歌名-流水號
@@ -77,7 +81,7 @@ The annotation files are the dataset containing tables of data relating to songs
   - 再選擇 File > Save Session As 以儲存工作檔，檔名：歌名-流水號，檔案格式為 .sv。
       - 0001000-零距離-1.sv
   - 每首工作完成後，請將原本MP3檔刪除，以免觸法。
-- Step 8（處理資料人員實作，加註者請忽略此步驟）：寫程式，產生相同結構時，標註相同大寫英文字母(A, B, C, …)
+- Step 9（處理資料人員實作，加註者請忽略此步驟）：寫程式，產生相同結構時，標註相同大寫英文字母(A, B, C, …)
   - 檔名：歌名-structurePlus-流水號.csv
       - 0001000-零距離-structurePlus-1.csv
 

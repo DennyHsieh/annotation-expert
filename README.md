@@ -58,7 +58,7 @@ The annotation files are the dataset containing tables of data relating to songs
 | 2nd | **結構(Structure)**            | intro <br>pre-verse <br>verse <br>pre-chorus <br>chorus <br>inter <br>bridge <br>outro <br>others          | 標記出音樂架構中每個"**段落的起始處**"      |
 | 3rd | **樂句(Melody-based Phrase)**  | 相同樂句旋律標註相同小寫英文字母(a, b, c, etc.)                                                                        | 標記出每個”**樂句起始處”**                                                               |
 | 4th | **終止式(Cadence)**             | **A:** Authentic (V-I) (V-i) <br>**P:** Plagal (I-IV-I) (i-iv-i) <br>**H:** Half (-V) <br>**D:** Deceptive (V-x, x=ii、IV6、iv6、vi、VI) | 左欄所有「V」可轉位，亦可為「V7、V9……等」或轉位。有用到此四個終止式即標記，標註在該終止式"**結束的時間點**"，例如V-I，就標 I 結束的時間點(因為那才是一個"分界")，label就標是哪一種終止式 |
-| 5th | **歌詞句(Lyric-based Phrase)**  | 一段歌詞結束的時間點，相同歌詞句標註相同大寫英文字母(A, B, C, etc.)。                                                                                         | 標記出每句歌詞"**結束的時間點**”                                                            |
+| 5th | **歌詞句(Lyrics-based Phrase)**  | 一段歌詞結束的時間點，相同歌詞句標註相同大寫英文字母(A, B, C, etc.)。                                                                                         | 標記出每句歌詞"**結束的時間點**”                                                            |
 
 ![](image/annotation_toc.jpg)
 
@@ -78,7 +78,7 @@ The annotation files are the dataset containing tables of data relating to songs
       - 0001000-零距離-melodyPhrase-1.csv
       - 0001000-零距離-cadence-1.csv
       - 0001000-零距離-lyricPhrase-1.csv
-      - 請注意歌詞句輸出檔名為「lyricPhrase」而非「lyricsPhrase」，雖然後者寫法較佳。
+      - 請注意歌詞句輸出檔名為「lyricPhrase」而非「lyricsPhrase」，儘管後者寫法較合理。
       - 若遇到確定無相對應內容（終止式、歌詞等）的樂曲，請複製demo資料夾裡面的「0000000-empty-example-0.csv」並依照規範修改檔名。請按本網站右上方「Clone or download」綠色按鈕下載ZIP壓縮檔再解壓縮，不要使用網頁瀏覽器直接單獨另存該檔案，否則內容可能會不同。
   - 再選擇 File > Save Session As 以儲存工作檔，檔名：歌名-流水號，檔案格式為 .sv。
       - 0001000-零距離-1.sv

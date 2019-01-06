@@ -9,13 +9,14 @@ The annotation files are the dataset containing tables of data relating to songs
 
 **Common Shortcuts**
 
-| 快捷鍵        | 功能                                     |
-| ------------ | -------------------------------------- |
-| N            | Add New Pane：新增加註工作視窗                 |
-| Y            | Show Layer Summery：各加註軌設定                 |
-| ;            | Time Instants Layer：新增一個時間標記          |
-| Space        | (空白鍵)播放歌曲                              |
-| Ctrl+Z       | 復原                                     |
+| 快捷鍵        | 功能                                  |
+| ------------ | ------------------------------------- |
+| N            | Add New Pane：新增加註工作視窗          |
+| Y            | Show Layer Summery：各加註軌設定        |
+| E            | Data Editor：圖層數據編輯視窗            |
+| ;            | Time Instants Layer：新增一個時間標記    |
+| Space        | (空白鍵)播放歌曲                        |
+| Ctrl+Z       | 復原                                   |
 | Ctrl+Y       | Export Annotation Layer：儲存.csv格式之加註檔案。須在目標Pane選第三層（Time Instants）Layer，才能按Ctrl+Y輸出。 |
 | Ctrl+Shift+S | Save Session As：儲存.sv格式之工作檔           |
 

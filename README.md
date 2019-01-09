@@ -34,7 +34,7 @@ The annotation files are the dataset containing tables of data relating to songs
 
 - Step 3:  增加五個新的標記面板之後，選擇上方選單 View > Show Layer Summery 或快捷鍵 Y，參考下圖設定方式，關閉加註點的聲響提示，以及加註軌的尺規顯示。如果是開啟舊檔後才更改設定，則直接存檔覆蓋有可能會遺失設定值，必須要另存新檔，才會把設定值寫入。備註：在本說明的其它圖例中，尺規顯示是未關閉的狀態；demo資料夾中的範例檔則有關閉。
 
-![](image/layer_summary.jpg)
+![](image/layer_summary.png)
 
 
 - Step 4: 按下播放(或空白鍵)並聆聽音樂，並在欲標記處按下分號鍵 (*;*) 以作標記。如果錯過的話，可按暫停播放(或再一下空白鍵)並拖移音軌至欲標記處，重新做標記。按ctrl+z (mac: command + z) 可以退回上一步。

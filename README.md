@@ -32,7 +32,7 @@ The annotation files are the dataset containing tables of data relating to songs
 
 ![](image/annotation_2.png)
 
-- Step 3:  增加五個新的標記面板之後，選擇上方選單 View > Show Layer Summery 或快捷鍵 Y，參考下圖設定方式，關閉加註點的聲響提示，以及加註軌的尺規顯示。如果是開啟舊檔後才更改設定，則直接存檔覆蓋有可能會遺失設定值，必須要另存新檔，才會把設定值寫入。備註：在本說明的其它圖例中，尺規顯示是未關閉的狀態；demo資料夾中的範例檔則有關閉。
+- Step 3:  增加五個新的標記面板之後，選擇上方選單 View > Show Layer Summery 或快捷鍵 Y，參考下圖設定方式，關閉加註點的聲響提示，以及加註軌的尺規顯示。如果是開啟舊檔後才更改設定，則直接存檔覆蓋有可能會遺失設定值，必須要另存新檔，才會把設定值寫入。自我檢查時，請關閉軟體後重新開啟該檔案。備註：在本說明的其它圖例中，尺規顯示是未關閉的狀態；demo資料夾中的範例檔則有關閉。
 
 ![](image/layer_summary.png)
 

@@ -78,8 +78,9 @@ The annotation files are the dataset containing tables of data relating to songs
       - 若遇到確定無相對應內容（終止式、歌詞等）的樂曲，請複製demo資料夾裡面的「0000000-empty-example-0.csv」並依照規範修改檔名。請按本網站右上方「Clone or download」綠色按鈕下載ZIP壓縮檔再解壓縮，不要使用網頁瀏覽器直接單獨另存該檔案，否則內容可能會不同。
   - 再選擇 File > Save Session As 以儲存工作檔，檔名：歌名-流水號，檔案格式為 .sv。
       - 0001000-零距離-1.sv
-  - 每首工作完成後，請將原本MP3檔刪除，以免觸法。
-- Step 9（處理資料人員實作，加註者請忽略此步驟）：寫程式，產生相同結構時，標註相同大寫英文字母(A, B, C, …)
+  - 每期任務完成結案後，請勿私自留存MP3檔，以免觸法。
+ 
+- Step 8（處理資料人員實作，加註者請忽略此步驟）：寫程式，產生相同結構時，標註相同大寫英文字母(A, B, C, …)
   - 檔名：歌名-structurePlus-流水號.csv
       - 0001000-零距離-structurePlus-1.csv
 

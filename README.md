@@ -53,7 +53,7 @@ The annotation files are the dataset containing tables of data relating to songs
 | --- | ---------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | 1st | **特別標記**(**Special labels)** | silence <br>silence-end <br>silence <br>end                                                       | 標記音檔起始空白為silence；訊號起始點為silence-end；音樂結束點為silence；整個音檔最尾端為end                  |
 | 2nd | **結構(Structure)**            | intro <br>pre-verse <br>verse <br>pre-chorus <br>chorus <br>inter <br>bridge <br>outro <br>others          | 標記出音樂架構中每個"**段落的起始處**"      |
-| 3rd | **樂句(Melody-based Phrase)**  | 相同曲調旋律標註相同小寫英文字母(a, b, c, etc.)                                                                        | 標記出每個”**樂句起始處”**。曲調旋律不限於人聲主唱。移調或漸快漸慢亦視為相同；差一個音或節奏即視為不同。若同時有多聲部旋律材料重疊以致無法明顯判定時，則依加註者個人主觀感受。               |
+| 3rd | **樂句(Melody-based Phrase)**  | 相同曲調旋律標註相同小寫英文字母(a, b, c, etc.)                                                                        | 標記出每個”**樂句起始處”**。曲調旋律不限於人聲主唱，移調或漸快漸慢視為相同。任何音高或節奏差異即可嚴格認定為不同；亦可寬鬆認定，將一定程度內的差異視為相同。惟無論採用何種方式，在同一首曲子內請維持一貫相同標準。若同時有多聲部旋律材料重疊以致無法明顯判定時，則依加註者個人主觀感受。|
 | 4th | **終止式(Cadence)**             | **A:** Authentic (V-I) (V-i) <br>**P:** Plagal (I-IV-I) (i-iv-i) <br>**H:** Half (-V) <br>**D:** Deceptive (V-x, x=ii、IV6、iv6、vi、VI) | 左欄所有「V」可轉位，亦可為「V7、V9……等」或轉位。有用到此四個終止式即標記，標註在該終止式"**結束的時間點**"，例如V-I，就標 I 結束的時間點(因為那才是一個"分界")，label就標是哪一種終止式 |
 | 5th | **歌詞句(Lyrics-based Phrase)**  | 相同歌詞句標註相同大寫英文字母(A, B, C, etc.)。                                                                                         | 標記出每句歌詞"**結束的時間點**”                                                            |
 

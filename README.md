@@ -23,33 +23,31 @@ The annotation files are the dataset containing tables of data relating to songs
 
 **Procedures**
 
-- Step 1: 選擇上方選單File > Open > 選取歌曲，或是拖曳檔案，將歌曲加載到Sonic Visualiser，此時會顯示歌曲波形。
+- Step 1：選擇上方選單File > Open > 選取歌曲，或是拖曳檔案，將歌曲加載到Sonic Visualiser，此時會顯示歌曲波形。
 
 ![](image/annotation_1.png)
 
 
-- Step 2:  選擇上方選單 Pane > Add New Pane 或快捷鍵 N 產生一個新的標記面板。此時若按分號鍵 (**;**) 會在黑色豎槓處產生一個標記 (Time Instants Layer) 。
+- Step 2：選擇上方選單 Pane > Add New Pane 或快捷鍵 N 產生一個新的標記面板。此時若按分號鍵 (**;**) 會在黑色豎槓處產生一個標記 (Time Instants Layer) 。
 
 ![](image/annotation_2.png)
 
-- Step 3: 按下播放(或空白鍵)並聆聽音樂，並在欲標記處按下分號鍵 (*;*) 以作標記。如果錯過的話，可按暫停播放(或再一下空白鍵)並拖移音軌至欲標記處，重新做標記。按ctrl+z (mac: command + z) 可以退回上一步。
+- Step 3：按下播放(或空白鍵)並聆聽音樂，並在欲標記處按下分號鍵 (*;*) 以作標記。如果錯過的話，可按暫停播放(或再一下空白鍵)並拖移音軌至欲標記處，重新做標記。按ctrl+z (mac: command + z) 可以退回上一步。
 
-- Step 4: 整首歌標記完後，選擇上方選單 Layer > Edit Layer Data 或按快捷鍵E打開圖層數據編輯視窗 (Data Editor)，將打開一個新視窗。第一欄為時間 (已自動轉換為秒)，在第三欄輸入標記的文字敘述 (例如 intro、verse、chorus、bridge等等。)
-
-![](image/annotation_3.png)
-
-- Step 5: 標記的格式
+- Step 4：整首歌標記完後，選擇上方選單 Layer > Edit Layer Data 或按快捷鍵E打開圖層數據編輯視窗 (Data Editor)，將打開一個新視窗。第一欄為時間 (已自動轉換為秒)，在第三欄輸入標記的文字敘述 (例如 intro、verse、chorus、bridge等等。)
 
 | Time | Frame  | Label |
 | ---- | ------ | ----- |
 | 開始時間 | （自動帶出） | 標記名稱  |
 | 結束時間 | （自動帶出） | 標記名稱  |
 
-- Step 6: 選擇上方選單 View > Show Layer Summery 或快捷鍵 Y，參考下圖設定方式，關閉加註點的聲響提示，以及各軌的尺規顯示。必須要另存新檔（Save Session As），才會把設定值寫入。自我檢查時，請關閉軟體後重新開啟該檔案。備註：在本說明的其它圖例中，尺規顯示是未關閉的狀態；demo資料夾中的範例檔則有關閉。
+![](image/annotation_3.png)
+
+- Step 5：選擇上方選單 View > Show Layer Summery 或快捷鍵 Y，參考下圖設定方式，關閉加註點的聲響提示，以及各軌的尺規顯示。必須要另存新檔（Save Session As），才會把設定值寫入。自我檢查時，請關閉軟體後重新開啟該檔案。備註：在本說明的其它圖例中，尺規顯示是未關閉的狀態；demo資料夾中的範例檔則有關閉。
 
 ![](image/layer_summary.png)
 
-- Step 7: 標記項目、順序與說明如下，詳細說明在Lable Help
+- Step 6：標記項目、順序與說明如下，詳細說明在Lable Help
 
 | 順序  | 項目(layer)                    | 標記(Labels)                                                                                                | 說明                                                                             |
 | --- | ---------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
@@ -61,8 +59,7 @@ The annotation files are the dataset containing tables of data relating to songs
 
 ![](image/annotation_toc.jpg)
 
-
-- Step 8: 存檔方式
+- Step 7：存檔方式
   - 選擇 File > Export Annotation Layer 以儲存 Annotation 檔案，檔案格式為 .csv。
   - 每個大項目開一新的 Pane (Pane > Add New Pane) 做標記，各別存成一個檔。
   - 資料夾命名法：歌號-歌名-流水號

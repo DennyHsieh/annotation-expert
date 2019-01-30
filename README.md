@@ -105,7 +105,7 @@ The annotation files are the dataset containing tables of data relating to songs
     | 1:51.000 | xxx   | B     |
 
 
-- 結構(Structure)標記說明
+- 結構標記說明
   - 前奏 (intro)：在一首歌開頭，導引出整首曲子。
   - 前導主歌(pre-verse)：在前奏與主歌之間，導引出主歌的片段。
     - 例1：新寶島康樂隊〈鼓聲若響〉主歌開始前三小節

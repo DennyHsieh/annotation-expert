@@ -160,10 +160,11 @@ The annotation files are the dataset containing tables of data relating to songs
 - [SALAMI Annotator's Guide (2010)](http://www.music.mcgill.ca/~jordan/salami/SALAMI-Annotator-Guide.pdf)
 - [機器學習與智慧音樂應用 (2017)](https://speakerdeck.com/fukuball/machine-learning-and-the-intelligent-music-application)
 - [電腦音樂：歷史沿革與研究近況 (2014)](http://ee.ntu.edu.tw/upload/hischool/doc/2014.03.pdf)
+- 蔡振家、陳容姍（2013）。《聽情歌，我們聽的其實是……：從認知心理學出發，探索華語抒情歌曲的結構與情感》，臺北市：臉譜。
 
 ## Credits
 - Li Su, Assistant Research Fellow, Institute of Information Science, Academia Sinica
-- Hsin-Ming Lin, Postdoctoral Research Fellow, Center for Cultural Heritage Research and Incubation, Tainan National University of the Arts
+- Hsin-Ming Lin, Postdoctoral Research Fellow, Center for Cultural Heritage Research and Innovation, Tainan National University of the Arts
 - Tung-Ching Hsieh, Research Assistant, Institute of Information Systems and Applications, National Tsing Hua University
 - Charles Chu, Graduate Student, Department of Music, National Tsing Hua University
 - Yun-Ting Lai, Graduate Student, Department of Music, National Tsing Hua University
@@ -178,7 +179,6 @@ The annotation files are the dataset containing tables of data relating to songs
 > 但彼此還是感覺到了對方的 一個眼神 一個心跳.... 一種意想不到的快樂/<br>
 > 好像是 一場夢境/<br>
 > 命中註定/
-
 
   - Ex.2
 > 別想太多 沒有誰是誰的英雄/<br>

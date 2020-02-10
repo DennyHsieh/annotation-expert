@@ -13,7 +13,7 @@ The annotation files are the dataset containing tables of data relating to songs
 | ------------ | ------------------------------------- |
 | N            | Add New Pane：新增加註工作視窗          |
 | Y            | Show Layer Summery：各加註軌設定        |
-| E            | Data Editor：圖層數據編輯視窗            |
+| E            | Data Editor：圖層數據編輯視窗。須在目標Pane選第三層（Time Instants）Layer，才能打開進行編輯。|
 | ;            | Time Instants Layer：新增一個時間標記    |
 | Space        | (空白鍵)播放歌曲                        |
 | Ctrl+Z       | 復原                                   |

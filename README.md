@@ -47,7 +47,7 @@ The annotation files are the dataset containing tables of data relating to songs
 
 ![](image/layer_summary.png)
 
-- Step 6：標記項目、順序與說明如下，詳細說明在Lable Help
+- Step 6：標記項目、順序與說明如下，詳細說明在Label Help
 
 | 順序  | 項目(layer)                    | 標記(Labels)                                                                                                | 說明                                                                             |
 | --- | ---------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
@@ -84,7 +84,7 @@ The annotation files are the dataset containing tables of data relating to songs
   - 檔名：歌名-structurePlus-流水號.csv
       - 0001000-零距離-structurePlus-1.csv
 
-**Lable Help**
+**Label Help**
 
 - 結構標示方法
   - Structure、Melody-based Phrase，只標起始

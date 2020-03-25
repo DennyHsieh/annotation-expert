@@ -49,7 +49,7 @@ The annotation files are the dataset containing tables of data relating to songs
 
 - Step 6：標記項目、順序與說明如下，詳細說明在Label Help
 
-| 順序  | 項目(layer)                    | 標記(Labels)                                                                                                | 說明                                                                             |
+| 順序  | 項目                    | 標記                                                                                                | 說明                                                                             |
 | --- | ---------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | 1st | **特別標記**(**Special labels)** | silence <br>silence-end <br>silence <br>end                                                       | 標記音檔起始空白為silence；訊號起始點為silence-end；音樂結束點為silence；整個音檔最尾端為end                  |
 | 2nd | **結構(Structure)**            | intro <br>pre-verse <br>verse <br>pre-chorus <br>chorus <br>inter <br>bridge <br>outro <br>others          | 標記出音樂架構中每個"**段落的起始處**"      |

@@ -162,6 +162,11 @@ The annotation files are the dataset containing tables of data relating to songs
 - [電腦音樂：歷史沿革與研究近況 (2014)](http://ee.ntu.edu.tw/upload/hischool/doc/2014.03.pdf)
 - 蔡振家、陳容姍（2013）。《聽情歌，我們聽的其實是……：從認知心理學出發，探索華語抒情歌曲的結構與情感》，臺北市：臉譜。
 
+## Grants
+- [MOST 105-2218-E007-031](https://www.grb.gov.tw/search/planDetail?id=12455462)
+- [MOST 106-3114-E007-013](https://www.grb.gov.tw/search/planDetail?id=12484736)
+- [MOST 107-2218-E007-008](https://www.grb.gov.tw/search/planDetail?id=12751283)
+
 ## Credits
 - Li Su, Assistant Research Fellow, Institute of Information Science, Academia Sinica
 - Hsin-Ming Lin, Postdoctoral Research Fellow, Center for Cultural Heritage Research and Innovation, Tainan National University of the Arts
